@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bungee+Outline|Josefin+Sans|Literata|Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <form action='/register' method='POST'>
+      <input type="text" name="username" />
+      <input type="text" name="password" />
+      <button type="submit" id="register">Register</button>
+    </form>
+    <div class = "row footer">  
+      <div class="col-md-12 auth-button">
+          <a class="navbar-button" href="/">Home</a>
+          <a class="navbar-button" href="/search">Search</a>
+          <a class="navbar-button"  href="/add_shoe">Sell</a>
+          <a class="navbar-button"  href="/profile">Profile</a>
+        </div>
+    </div>
+  </body>
+</html>
